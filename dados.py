@@ -15,6 +15,7 @@ selic = get_data_bcb(11)
 
 plt.plot(selic.index, selic)
 plt.xlabel('Anos')
-plt.ylabel('Taxa')
+plt.ylabel('Taxa diária')
 plt.title('Taxa Selic')
 plt.show()
+plt.close
