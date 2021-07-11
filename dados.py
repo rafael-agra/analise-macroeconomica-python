@@ -12,6 +12,8 @@ def get_data_bcb(código):
     return df
 
 selic = get_data_bcb(11)
+teste = get_data_bcb(300)
+
 
 plt.plot(selic.index, selic)
 plt.xlabel('Anos')
